@@ -3,13 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My project title</title>
-    <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
+    <title>Snelle F1 Info</title>
+    <link rel="shortcut icon" type="image/png" href="/assets/alonsobigforehead.jpg">
     <link rel="stylesheet" href="style.css">
     <!-- <script src="CDN library url"></script> -->
     <script defer src="main.js"></script>
 </head>
+<head>
+    <center>
+        <h1 class="custom-animation">Formule 1 informatie in het kort</h1>
+        <iframe 
+            src="https://giphy.com/embed/fjyqERPlgsnD0bRo22" 
+            width="200" 
+            height="100" 
+            id="f1logogif" 
+            frameBorder="0">
+        </iframe>
+    </center>
+    <style>
+        .custom-animation {
+            animation: bounceWithPause 5s ease infinite;
+        }
+    
+        @keyframes bounceWithPause {
+            0%, 20% {
+                transform: translateY(0); 
+            }
+            20% {
+                transform: translateY(-20px); 
+            }
+            40%, 100% {
+                transform: translateY(0);
+            }
+        }
+    </style>
+    
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
 <body>
-    <h1>Hello world!</h1>
+    <div class="drivers-grid1">
+        <a href="bestecoureurs.html">
+            <img src="/assets/michaelschumacher.jpg" id="schumacherfoto" alt="Schumacher foto">
+        </a>
+
+        <a href="dominantieF1.html">
+            <img src="/assets/maxverstappen.jpg" id="verstappenfoto" alt="Max Verstappen foto">
+        </a>
+    </div>
+
+    
+    <div class="extrainfo">
+        <a href="geschiedenisF1.html">
+            <img src="/assets/sennamansellcar.jpg" id="sennamansellcar" alt="senna en mansell op de auto">
+            <!-- <img src="/assets/verstappenspanje2016.jpg" id="verstappenwin" alt="verstappen spanje win"> -->
+        </a>
+    </div>
+
+    <div class="drivers-grid2">
+        <a href="F1wagengeneraties.html">
+            <img src="/assets/f1cargens.webp" id="f1cargens" alt="Generatie van F1 autos">
+        </a>
+
+        <a href="recordsF1.html">
+            <img src="/assets/lewishamilton.avif" id="hamiltonfoto" alt="Hamilton foto">
+        </a>
+        
+    </div>
+    
+    <img src="/assets/nowf1logo.jpg" id="nowf1logo" alt="Oude f1 logo">
+    <img src="/assets/oldf1logo.png" id="oldf1logo" alt=" het nu f1 logo">
+    
+
+    <h1 id="onderwerp1">Beste coureurs van aller tijden</h1>
+    <h1 id="onderwerp2">Domineren in de Formule 1</h1>
+    <h1 id="onderwerp3">Generatie van F1 racewagens</h1>
+    <h1 id="onderwerp4">Records in de Formule 1</h1>
+
+    <center>
+    <h1 id="onderwerp5">Formule 1 Geschiedenis</h1>
+    </center>
+
+    <div id="benedenlijn"></div>
+
+    <center>
+    <p id="gemaaktdoor">Gemaakt door: Michael</p>
+    </center>
+
+    <div id="tiktokaccount">
+    <a href="https://www.tiktok.com/@f1.michaelwitkamp" target="_blank">Volg me op TikTok!</a>
+    </div>
+
+    <div id="youtubeaccount">
+        <a href="https://www.youtube.com/@MichaelWitkamp" target="_blank">Abonneer op m'n kanaal!</a>
+    </div>
 </body>
 </html>

@@ -1,4 +1,173 @@
 body{
-    background-color: black;
-    color: white;
+    background-color: lightcyan;
+    color: black;
 }
+
+
+
+.drivers-grid1 {
+    border-style: dotted;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    align-items: center; 
+    column-gap: 50px; 
+    margin: 20px; 
+}
+
+#schumacherfoto {
+    width: 300px;
+    height: 200px;
+    margin-left: 30px; 
+    margin-top: 50px; 
+}
+
+
+#verstappenfoto {
+    width: 300px;
+    height: 200px;
+    margin-left: 380px; 
+    margin-top: 50px; 
+}
+
+:root {
+    --animate-duration: 1s;
+}
+
+#nowf1logo {
+    width: 150px;
+    height: 75px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+#oldf1logo {
+    width: 150px;
+    height: 75px;
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+
+.extrainfo {
+    border-style: dotted;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    align-items: center; 
+    column-gap: 0px; 
+    margin: 20px; 
+}
+
+#sennamansellcar{
+    width: 300px;
+    height: 200px;
+    margin-left: 570px;
+}
+
+.drivers-grid2 {
+    border-style: dotted;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    align-items: center; 
+    column-gap: 50px; 
+    margin: 20px; 
+}
+
+#f1cargens {
+    width: 300px;
+    height: 200px;
+    margin-left: 30px; 
+    margin-top: 50px; 
+}
+
+
+#hamiltonfoto {
+    width: 300px;
+    height: 200px;
+    margin-left: 380px; 
+    margin-top: 50px; 
+}
+
+#onderwerp1{
+    margin-top: -500px;
+    font-size: x-large ;
+    margin-left: 50px;
+}
+
+#onderwerp2{
+    margin-top: -40px;
+    font-size: x-large ;
+    margin-left: 1160px;
+}
+
+#onderwerp3{
+    margin-top: 460px;
+    font-size: x-large ;
+    margin-left: 50px;
+}
+
+#onderwerp4{
+    margin-top: -50px;
+    font-size: x-large ;
+    margin-left: 1180px;
+}
+
+#onderwerp5{
+    margin-top: -320px;
+    font-size: x-large ;
+}
+
+h1.custom-animation {
+    margin-bottom: 20px; 
+}
+
+#f1logogif {
+    display: block;
+    margin: 0 auto; 
+    margin-top: 10px; 
+}
+
+a {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+    
+}
+
+a img {
+    display: block;
+    position: relative;
+}
+
+a img:hover {
+    transform: scale(1.05); 
+    transition: transform 0.2s ease; 
+}
+
+#benedenlijn {
+    border-style: solid;
+    border-width: 50px;
+
+    margin-top: 300px;
+}
+
+#gemaaktdoor{
+    color: white;
+    margin-top: -75px;
+    font-size: xx-large;
+}
+
+/* #containergif{
+    width: 200px;
+    height: 100px;
+    
+} */
+
+/* voorbeeld
+#img2{
+    width: auto;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 20px;
+} */
